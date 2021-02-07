@@ -63,7 +63,7 @@ func main() {
 	rpc.Register(getter)
 
 	http.Handle("/rpc", wrap(jsonrpc2.HTTPHandler(nil)))
-	lnHTTP, err := net.Listen("tcp", "localhost:10000")
+	lnHTTP, err := net.Listen("tcp", "0.0.0.0:10000")
 	if err != nil {
 		panic(err)
 	}

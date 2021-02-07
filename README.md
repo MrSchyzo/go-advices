@@ -12,6 +12,4 @@ A simple jsonrpc v2.0 wrapper over [advice slip service](https://api.adviceslip.
 
 ## TODO
 
-- Clean up this mess
 - add some unit tests (maybe)
-- edit this readme
